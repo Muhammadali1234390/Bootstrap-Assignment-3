@@ -1,0 +1,600 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+nav img[src="img/logo.png.webp"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 220px;
+}
+
+nav img[src="img/logo.png.webp"]:hover {
+    cursor: pointer;
+}
+
+nav p {
+    font-family: 'Poppins', sans-serif;
+    color: #020a21;
+    text-decoration: none;
+    justify-content: space-around;
+    transition: 0.4s;
+}
+
+nav ul {
+    margin-right: 70px;
+    align-self: center;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container h3{
+    width: 100%;
+}
+nav p:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+nav {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    ;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    position: sticky;
+}
+
+.one {
+    background-image: url(img/home-banner.jpg.webp);
+    height: 800px;
+}
+
+.one h1 {
+    margin-left: 250px;
+}
+
+.one p {
+    margin-left: 250px;
+}
+
+.button-1 {
+    background-color: #0051D2;
+    color: #fff;
+    transition: 0.4s;
+    margin-left: 250px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-1:hover {
+    background-color: #fff;
+    color: #0051D2;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid #0051D2;
+    color: #000;
+    padding: 14px 24px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: #0051D2;
+    color: #fff;
+}
+
+.two {
+    background-color: #0251D3;
+    height: 350px;
+}
+
+.box,
+.box-1,
+.box-2 {
+    background-color: #fff;
+}
+
+.box {
+    width: 360px;
+    height: 208px;
+}
+
+.box-1 {
+    width: 360px;
+    height: 208px;
+}
+
+.box-2 {
+    width: 360px;
+    height: 208px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    display: flex;
+}
+
+.main img {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.main h5 {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.p p {
+    margin-left: 20px;
+    color: #323232;
+}
+
+.heart {
+    width: 40px;
+}
+
+.two {
+    background-image: url(img/pattern_bg.jpg.webp);
+}
+
+.card img {
+    width: 76px;
+    height: 72px;
+    margin-left: 5px;
+}
+
+.card [src='img/Screenshot 2024-09-25 173650.png'] {
+    height: 68px;
+}
+
+.card {
+    width: 350px;
+}
+
+hr {
+    color: inherit;
+    background-color: currentColor;
+    border: 1;
+    opacity: 0.25;
+    width: 300px;
+}
+
+.container a p {
+    font-size: 18px;
+}
+
+.container a {
+    color: #000000;
+    font-size: 3rem;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.container a::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    top: 28px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #0251D3;
+    transition: width .2s;
+}
+
+.container a:hover {
+    color: #0251D3;
+}
+
+.container a:hover::after {
+    width: 30%;
+}
+
+.container-fluid {
+    background-image: url(img/bg_1.png.webp);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.container-fluid h1 {
+    text-align: left;
+    margin-top: -500px;
+    margin-left: 1000px;
+}
+
+.container-fluid p {
+    margin-left: 1000px;
+}
+
+.p {
+    color: #0251D3;
+}
+
+.container-fluid a p {
+    font-size: 18px;
+}
+
+.container-fluid a {
+    color: #000000;
+    font-size: 3rem;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.container-fluid a::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    top: 28px;
+    left: 1000px;
+    bottom: 0;
+    width: 0;
+    background: #0251D3;
+    transition: width .2s;
+}
+
+.container-fluid a:hover {
+    color: #0251D3;
+}
+
+.container-fluid a:hover::after {
+    width: 5%;
+}
+
+.ones img {
+    width: 100%;
+    margin-left: 0px;
+    height: 300px;
+}
+
+.fa-facebook-f {
+    transition: 0.4s;
+}
+
+.fa-facebook-f:hover {
+    color: #0251D3;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    transition: 0.4s;
+}
+
+.fa-twitter:hover {
+    color: #0251D3;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    transition: 0.4s;
+}
+
+.fa-instagram:hover {
+    color: #0251D3;
+    cursor: pointer;
+}
+
+.fa-skype {
+    transition: 0.4s;
+}
+
+.fa-skype:hover {
+    color: #0251D3;
+    cursor: pointer;
+}
+
+.icons p {
+    cursor: pointer;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #ffffff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    width: 100%;
+}
+
+.appoinment {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-around;
+}
+
+.questions{
+    margin-left: 50px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #eeeeee;
+    float: right;
+    margin-left: 5px;
+}
+
+.form {
+    margin-right: 50px;
+}
+
+textarea {
+    width: 450px;
+    height: 200px;
+}
+
+#first-name {
+    width: 450px;
+}
+
+.accordian:active::after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.button-3 {
+    background-color: #0051D2;
+    color: #fff;
+    transition: 0.4s;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+}
+
+.einstein{
+    background-image: url(img/bg_2.png.webp);
+    text-align: center;
+}
+
+.einstein img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin: 70px;
+}
+
+.einstein i{
+    font-size: 20px;
+}
+.button-3:hover {
+    background-color: #fff;
+    color: #0051D2;
+}
+.emergency {
+    position: relative;
+    height: 330px;
+  }
+  
+  .emergency::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 56, 242, 0.609); /* Change the color and opacity as needed */
+  }
+  
+  .emergency img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+  }
+  .emergency h6{
+    margin-top: -30px;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .text{
+    z-index: 1;
+  }
+  .text h5{
+    color: #fff;
+    z-index: 1;
+  }
+  .hotline-area{
+    color: #fff;
+    background-image: url("img/bg1.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    background-color: rgba(8, 0, 255, 0.6);
+    position: relative;
+    z-index: 1;
+  }
+  .ores{
+    width: 430px;
+    height: 600px;
+  }
+  .ores img{
+    height: 385px;
+  }
+  .hotline-area::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 56, 242, 0.609); /* Change the color and opacity as needed */
+  }
+  @media only screen and (max-width: 767px){
+    .navbar-toggler {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-toggler .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-toggler .dropdown-menu {
+        position: absolute;
+    }
+    .navbar-toggler .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-toggler > .container {
+        flex-wrap: nowrap;
+    }
+    .navbar-toggler .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    .navbar-toggler .navbar-toggler {
+        display: none;
+    }
+  }
+  .LG:hover{
+    cursor: pointer;
+    opacity: 1!important;
+  }
+  .LG{
+    transition: 0.3s;
+  }
+  .ores img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .ores img{
+    transition: 0.3s;
+  }
+  .logo{
+    background-color: rgb(247, 247, 247);
+    background-image: none;
+    height: 300px;
+}
+.one-footer{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.one-footer a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+.one-footer a:hover{
+    color: #0051D2;
+}
+hr{
+    width: 2000px;
+}
+.copyright p{
+    margin-left: 120px;
+}
+.facebook, .twitter, .internet, .linkedin{
+    background-color: #000;
+}
+.copyright{
+    display: flex;
+}
+.facebook .fa-facebook-f{
+    color: #fff;
+}
+.facebook{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+.facebook:hover{
+    background-color: #007bff;
+    outline: none;
+    border: none;
+}
+  
+.twitter .fa-twitter{
+    color: #fff;
+}
+.twitter{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+.twitter:hover{
+    background-color: #007bff;
+    outline: none;
+    border: none;
+}
+.internet .fa-globe{
+    color: #fff;
+}
+.internet{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+.internet:hover{
+    background-color: #007bff;
+    outline: none;
+    border: none;
+}
+.linkedin .fa-linkedin-in{
+    color: #fff;
+}
+.linkedin{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+.linkedin:hover{
+    background-color: #007bff;
+    outline: none;
+    border: none;
+}
+  
